@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Juan en el Supermarket</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+
+<body>
+    <div id="contenido" class="container-fluid contenido w-100 d-flex align-items-center flex-column text-white">
+        <div class="container justify-content-center w-50">
+            <div class="card">
+                <h1 class="text-center text-uppercase sombra" id="ciudad">O F E R T A S del D Í A </h1>
+                
+                <div class="card border-right border-secondary">                        
+                        <div class="card-body " alt=" ">
+                            <h4 class="card-title text-center text-uppercase" id="demo0"></h4>
+                            <p class="text-center" id="demo01"></p>
+                            <div class="container d-flex flex-column">
+                                <img src="images/mercadona.jpg" alt="" class="img_pron d-flex justify-content-center">
+                                <h6 class="card-title text-center" id="demo02"></h6>                                
+                            </div>
+                            <ul>
+                                <li id="demo03"></li>
+                                <p>¿Ya lo tienes?</p>
+                                <input type="radio" name="adquirido" value="true"> <label for="Si">Si</label><br>
+                                <input type="radio" name="adquirido" value="true"> <label for="No">No</label><br>      
+                                <li id="demo04"></li>
+                                <p>¿Ya lo tienes?</p>
+                                <input type="radio" name="adquirido" value="true"> <label for="dquirido">Si</label><br>
+                                <input type="radio" name="adquirido" value="true"> <label for="dquirido">No</label><br>
+                            </ul>                     
+                        </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <div class="container justify-content-center">
+            <div class="container justify-content-center diario">
+                <h1 class="text-center sombra">SUPERMERCADOS</h1>
+                <div class="card-group d-flex bd-highlight">
+
+                    <div class="card border-right border-secondary">                        
+                        <div class="card-body " alt=" ">
+                            <h4 class="card-title text-center text-uppercase" id="demo1"></h4>
+                            <p class="text-center" id="demo11"></p>
+                            <div class="container d-flex flex-column">
+                                <img src="images/carrefour.jpg" alt="" class="img_prona">
+                                <h6 class="card-title text-center" id="demo12"></h6>                             
+                            </div><br>
+                             <ul>
+                                <li id="demo13"></li>
+                                <p>¿Ya lo tienes?</p>
+                                <input type="radio" name="adquirido" value="true"> <label for="Si">Si</label>
+                                <input type="radio" name="adquirido" value="true"> <label for="No">No</label><br>      
+                                <li id="demo14"></li>
+                                <p>¿Ya lo tienes?</p>
+                                <input type="radio" name="adquirido" value="true"> <label for="dquirido">Si</label>
+                                <input type="radio" name="adquirido" value="true"> <label for="dquirido">No</label><br>
+                            </ul>                      
+                        </div>
+                    </div>
+
+
+
+                    <div class="card border-right border-secondary">                        
+                        <div class="card-body " alt=" ">
+                            <h4 class="card-title text-center text-uppercase" id="demo2"></h4>
+                            <p class="text-center" id="demo21"></p>
+                            <div class="container d-flex flex-column">
+                                <img src="images/dia.jpg" alt="" class="img_prona">
+                                <h6 class="card-title text-center" id="demo22"></h6>                               
+                            </div><br>
+                             <ul>
+                                <li id="demo23"></li>
+                                <p>¿Ya lo tienes?</p>
+                                <input type="radio" name="adquirido" value="true"> <label for="Si">Si</label>
+                                <input type="radio" name="adquirido" value="true"> <label for="No">No</label><br>      
+                                <li id="demo24"></li>
+                                <p>¿Ya lo tienes?</p>
+                                <input type="radio" name="adquirido" value="true"> <label for="dquirido">Si</label>
+                                <input type="radio" name="adquirido" value="true"> <label for="dquirido">No</label><br>
+                            </ul>                        
+                        </div>
+                    </div>
+
+
+                    <div class="card border-right border-secondary">                        
+                        <div class="card-body " alt=" ">
+                            <h4 class="card-title text-center text-uppercase" id="demo3"></h4>
+                            <p class="text-center" id="demo31"></p>
+                            <div class="container d-flex flex-column">
+                                <img src="images/Alcampo.jpg" alt="" class="img_prona">
+                                <h6 class="card-title text-center" id="demo32"></h6>                              
+                            </div><br>
+                             <ul>
+                                <li id="demo33"></li>
+                                <p>¿Ya lo tienes?</p>
+                                <input type="radio" name="adquirido" value="true"> <label for="Si">Si</label>
+                                <input type="radio" name="adquirido" value="true"> <label for="No">No</label><br>      
+                                <li id="demo34"></li>
+                                <p>¿Ya lo tienes?</p>
+                                <input type="radio" name="adquirido" value="true"> <label for="dquirido">Si</label>
+                                <input type="radio" name="adquirido" value="true"> <label for="dquirido">No</label><br>
+                            </ul>                        
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script>
+      var text = '{"supermercados":[' +
+                                '{"nombre" : "Mercadona","direccion": "Calle Alcocer 39","geolocalizacion": "41°24 N 2°10 E","poblacion": "Madrid","cp": "28044", "producto":[{"nombre":"Tomate en rama","oferta": true,"inicioOferta": "19/4/2021 8:00 a.m.","finOferta": "30/4/2021 8:00 a.m.","medida": "kg","stock": 50,"precioVta": 3.27, "adquirido": false},{"nombre":"Pera conferencia","oferta": false,"inicioOferta": null,"finOferta": null,"medida": "kg","stock": 30,"precioVta": 2.10, "adquirido": true }]},' +
+                                '{"nombre" : "Carrefour","direccion": "Av. Andalucía 1","geolocalizacion": "45°24 N 2°15 E","poblacion": "Madrid","cp": "28045", "producto":[{"nombre":"calamar","oferta": true,"inicioOferta": "17/4/2021 8:00 a.m.","finOferta": "18/4/2021 8:00 a.m.","medida": "kg","stock": 30,"precioVta": 10.20, "adquirido": false},{"nombre":"gamba","oferta": false,"inicioOferta": null,"finOferta": null,"medida": "kg","stock": 50,"precioVta": 10.20, "adquirido": true }]},' +
+                                '{"nombre" : "Día","direccion": "Calle de Martinez Oviol 31","geolocalizacion": "43°23 N 2°56 E","poblacion": "Madrid","cp": "28021", "producto":[{"nombre":"cebolleta","oferta": false,"inicioOferta": null,"finOferta": null,"medida": "kg","stock": 12,"precioVta": 1.80, "adquirido": false},{"nombre":"calabacín","oferta": false,"inicioOferta": null,"finOferta": null,"medida": "kg","stock": 30,"precioVta": 1.20, "adquirido": true }]},' + 
+                                
+                                '{"nombre" : "Alcampo","direccion": "Av. Juan Carlos I s/n","geolocalizacion": "41°2 N 2°13 E","poblacion": "Madrid","cp": "28905", "producto":[{"nombre":"plátano canario","oferta": true,"inicioOferta": "19/4/2021 8:00 a.m","finOferta": "20/4/2021 8:00 a.m.","medida": "kg","stock": 40,"precioVta": 1.50, "adquirido": false},{"nombre":"Pera conferencia","oferta": false,"inicioOferta": null,"finOferta": null,"medida": "kg","stock": 15,"precioVta": 2.30, "adquirido": true }]}' + ']}';
+        
+                                
+        obj = JSON.parse(text);
+
+       
+        document.getElementById("demo0").innerHTML = obj.supermercados[0].nombre;
+        document.getElementById("demo01").innerHTML = obj.supermercados[0].direccion;
+        document.getElementById("demo02").innerHTML = obj.supermercados[0].geolocalizacion;
+        document.getElementById("demo03").innerHTML = obj.supermercados[0].producto[0].nombre + " " + obj.supermercados[0].producto[0].precioVta + " " + obj.supermercados[0].producto[0].medida + " "+ "€"+ " " + "(ofertón: "+ obj.supermercados[0].producto[0].inicioOferta + "-" + obj.supermercados[0].producto[0].finOferta + " " + " hasta agotar stock " + obj.supermercados[0].producto[0].stock + " " + obj.supermercados[0].producto[0].medida + ").";
+       
+        document.getElementById("demo04").innerHTML = obj.supermercados[1].producto[1].nombre + " " + obj.supermercados[1].producto[1].precioVta + " " + obj.supermercados[1].producto[1].medida + " "+ "€"+ " " + "(oferta: No disponible).";
+
+
+        document.getElementById("demo1").innerHTML = obj.supermercados[1].nombre;
+        document.getElementById("demo11").innerHTML = obj.supermercados[1].direccion;
+        document.getElementById("demo12").innerHTML = obj.supermercados[1].geolocalizacion;
+        document.getElementById("demo13").innerHTML = obj.supermercados[1].producto[0].nombre + " " + obj.supermercados[1].producto[0].precioVta + " " + obj.supermercados[1].producto[0].medida + " "+ "€"+ " " + "(ofertón: "+ obj.supermercados[1].producto[0].inicioOferta + "-" + obj.supermercados[1].producto[0].finOferta + " " + " hasta agotar stock " + obj.supermercados[1].producto[0].stock + " " + obj.supermercados[1].producto[0].medida + ").";
+       
+        document.getElementById("demo14").innerHTML = obj.supermercados[1].producto[1].nombre + " " + obj.supermercados[1].producto[1].precioVta + " " + obj.supermercados[1].producto[1].medida + " "+ "€"+ " " + "(oferta: No disponible).";
+        
+
+        document.getElementById("demo2").innerHTML = obj.supermercados[2].nombre;
+        document.getElementById("demo21").innerHTML = obj.supermercados[2].direccion;
+        document.getElementById("demo22").innerHTML = obj.supermercados[2].geolocalizacion;
+        document.getElementById("demo23").innerHTML = obj.supermercados[2].producto[0].nombre + " " + obj.supermercados[2].producto[0].precioVta + " " + obj.supermercados[2].producto[0].medida + " "+ "€"+ " " + "(oferta: No disponible).";
+       
+        document.getElementById("demo24").innerHTML = obj.supermercados[2].producto[1].nombre + " " + obj.supermercados[2].producto[1].precioVta + " " + obj.supermercados[2].producto[1].medida + " "+ "€"+ " " + "(oferta: No disponible).";
+        
+
+        document.getElementById("demo3").innerHTML = obj.supermercados[3].nombre;
+        document.getElementById("demo31").innerHTML = obj.supermercados[3].direccion;
+        document.getElementById("demo32").innerHTML = obj.supermercados[3].geolocalizacion;
+        document.getElementById("demo33").innerHTML = obj.supermercados[3].producto[0].nombre + " " + obj.supermercados[3].producto[0].precioVta + " " + obj.supermercados[3].producto[0].medida + " "+ "€"+ " " + "(ofertón: "+ obj.supermercados[3].producto[0].inicioOferta + "-" + obj.supermercados[3].producto[0].finOferta + " " + " hasta agotar stock " + obj.supermercados[3].producto[0].stock + " " + obj.supermercados[3].producto[0].medida + ").";
+       
+        document.getElementById("demo34").innerHTML = obj.supermercados[3].producto[1].nombre + " " + obj.supermercados[3].producto[1].precioVta + " " + obj.supermercados[3].producto[1].medida + " "+ "€"+ " " + "(oferta: No disponible).";
+        
+
+   
+    </script>
+
+</body>
+
+</html>
