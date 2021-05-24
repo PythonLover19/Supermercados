@@ -1,0 +1,52 @@
+.container-fluid {
+    background-image: linear-gradient(rgba(125, 117, 117, 0.5), rgba(156, 154, 154, 0.5)), url("../images/supermercado.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 2em;
+    padding-top: 3em;
+
+}
+
+.card {
+    background: none;
+    border: none;
+}
+
+.card-body {
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.diario {
+    padding-top: 1em;
+}
+
+.img_compra {
+    width: 8em;
+    height: 8em;
+}
+
+.compra_hoy {
+    font-size: 6em;
+}
+
+.sombra {
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.img_pron {
+    width: 60%;
+    height: 15%;
+    padding-left: 40%;
+    border-radius: 10px;    
+}
+
+.img_prona {
+    width: 80%;
+    height: 30%;
+    border-radius: 8px;    
+    padding: 40px 40px 20px 50px;
+    display:block;
+    margin:auto;
+
+}
