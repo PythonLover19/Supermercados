@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <supermercados>
+    <nombre>Mercadona</nombre>
+    <direccion>Calle Alcocer 39</direccion>
+    <geolocalizacion>41°24 N 2°10 E</geolocalizacion>
+    <poblacion>Madrid</poblacion>
+    <cp>28044</cp>
+    <producto>
+      <nombre>Tomate en rama</nombre>
+      <oferta boolean="true">true</oferta>
+      <inicioOferta>19/4/2021 8:00 a.m.</inicioOferta>
+      <finOferta>30/4/2021 8:00 a.m.</finOferta>
+      <medida>kg</medida>
+      <stock number="true">50</stock>
+      <precioVta number="true">3.27</precioVta>
+      <adquirido boolean="true">false</adquirido>
+    </producto>
+    <producto>
+      <nombre>Pera conferencia</nombre>
+      <oferta boolean="true">false</oferta>
+      <inicioOferta null="true"/>
+      <finOferta null="true"/>
+      <medida>kg</medida>
+      <stock number="true">30</stock>
+      <precioVta number="true">2.10</precioVta>
+      <adquirido boolean="true">true</adquirido>
+    </producto>
+  </supermercados>
+  <supermercados>
+    <nombre>Carrefour</nombre>
+    <direccion>Av. Andalucía 1</direccion>
+    <geolocalizacion>45°24 N 2°15 E</geolocalizacion>
+    <poblacion>Madrid</poblacion>
+    <cp>28045</cp>
+    <producto>
+      <nombre>calamar</nombre>
+      <oferta boolean="true">true</oferta>
+      <inicioOferta>17/4/2021 8:00 a.m.</inicioOferta>
+      <finOferta>18/4/2021 8:00 a.m.</finOferta>
+      <medida>kg</medida>
+      <stock number="true">30</stock>
+      <precioVta number="true">10.20</precioVta>
+      <adquirido boolean="true">false</adquirido>
+    </producto>
+    <producto>
+      <nombre>gamba</nombre>
+      <oferta boolean="true">false</oferta>
+      <inicioOferta null="true"/>
+      <finOferta null="true"/>
+      <medida>kg</medida>
+      <stock number="true">50</stock>
+      <precioVta number="true">10.20</precioVta>
+      <adquirido boolean="true">true</adquirido>
+    </producto>
+  </supermercados>
+  <supermercados>
+    <nombre>Día</nombre>
+    <direccion>Calle de Martinez Oviol 31</direccion>
+    <geolocalizacion>43°23 N 2°56 E</geolocalizacion>
+    <poblacion>Madrid</poblacion>
+    <cp>28021</cp>
+    <producto>
+      <nombre>cebolleta</nombre>
+      <oferta boolean="true">false</oferta>
+      <inicioOferta null="true"/>
+      <finOferta null="true"/>
+      <medida>kg</medida>
+      <stock number="true">12</stock>
+      <precioVta number="true">1.80</precioVta>
+      <adquirido boolean="true">false</adquirido>
+    </producto>
+    <producto>
+      <nombre>calabacín</nombre>
+      <oferta boolean="true">false</oferta>
+      <inicioOferta null="true"/>
+      <finOferta null="true"/>
+      <medida>kg</medida>
+      <stock number="true">30</stock>
+      <precioVta number="true">1.20</precioVta>
+      <adquirido boolean="true">true</adquirido>
+    </producto>
+  </supermercados>
+  <supermercados>
+    <nombre>Alcampo</nombre>
+    <direccion>Av. Juan Carlos I s/n</direccion>
+    <geolocalizacion>41°2 N 2°13 E</geolocalizacion>
+    <poblacion>Madrid</poblacion>
+    <cp>28905</cp>
+    <producto>
+      <nombre>plátano canario</nombre>
+      <oferta boolean="true">true</oferta>
+      <inicioOferta>19/4/2021 8:00 a.m</inicioOferta>
+      <finOferta>20/4/2021 8:00 a.m.</finOferta>
+      <medida>kg</medida>
+      <stock number="true">40</stock>
+      <precioVta number="true">1.50</precioVta>
+      <adquirido boolean="true">false</adquirido>
+    </producto>
+    <producto>
+      <nombre>Pera conferencia</nombre>
+      <oferta boolean="true">false</oferta>
+      <inicioOferta null="true"/>
+      <finOferta null="true"/>
+      <medida>kg</medida>
+      <stock number="true">15</stock>
+      <precioVta number="true">2.30</precioVta>
+      <adquirido boolean="true">true</adquirido>
+    </producto>
+  </supermercados>
+</root>
